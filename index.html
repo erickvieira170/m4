@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>World Of Series</title>
+</head>
+<body>
+
+    <div class="menu">
+		<nav>
+			<h2 class="logo">World Of<span> Series</span></h2>
+		    <ul>
+                <li><a href="#">Home</a></li>
+				<li><a href="#">Noticias</a></li>
+				<li><a href="#">Livros</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#">Sobre</a></li>
+			</ul>
+			<a href="#" class="button">Contato</a>
+		</nav>
+
+
+		<div class="content">
+			<h1>Game Of<span> Thrones</span></h1>
+
+        <br>
+        
+			<h3>Em suma, Game of Thrones retrata o conflito entre 7 reinos das terras de Westeros.<br>
+                Basicamente, o conflito se dá entre duas famílias que protagonizam a luta por um trono.<br>
+                No caso, o famoso Trono de Ferro. Aliás, é esse trono que dá origem ao nome da série.</h3>
+			<div class="info">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Envie sua Opinião">
+					<input type="submit" name="submit" value="Enviar">
+				</form>
+			</div>
+		</div>
+	</div>
+    
+    <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+            <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+            <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+            <div class="slide-list" data-slide="list">
+                <div class="slide-item" data-slide="item" data-index="0">
+                    <div class="slide-content">
+                        <img class="slide-image" src="https://tr.web.img3.acsta.net/newsv7/21/04/06/09/42/4808969.png   " alt="Card1" />
+                        <div class="slide-description">
+                            <h3>Tema</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide-item" data-slide="item" data-index="3">
+                    <div class="slide-content">
+                        <img class="slide-image" src="https://c4.wallpaperflare.com/wallpaper/701/841/98/tv-show-game-of-thrones-dragon-jon-snow-wallpaper-preview.jpg" alt="Card2" />
+                        <div class="slide-description">
+                            <h3>Tema</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-item" data-slide="item" data-index="3">
+                    <div class="slide-content">
+                        <img class="slide-image" src="https://s1.1zoom.me/b5050/548/Game_of_Thrones_438878_1920x1080.jpg" alt="Card3" />
+                        <div class="slide-description">
+                            <h3>Tema</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="slide-item" data-slide="item" data-index="5">
+                    <div class="slide-content">
+                        <img class="slide-image" src="https://c4.wallpaperflare.com/wallpaper/264/551/687/game-of-thrones-jon-snow-battle-of-the-bastards-kit-harington-wallpaper-preview.jpg" alt="Card4" />
+                        <div class="slide-description">
+                            <h3>Tema</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+
+                  <!--Quinto Slide-->
+
+                <div class="slide-item" data-slide="item" data-index="6">
+                    <div class="slide-content">
+                        <img class="slide-image" src="https://c4.wallpaperflare.com/wallpaper/312/253/174/daenerys-targaryen-emilia-clarke-tv-game-of-thrones-wallpaper-preview.jpg" alt="Card5" />
+                        <div class="slide-description">
+                            <h3>Tema</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <!--Ultimo Slide-->
+
+                <div class="slide-item" data-slide="item" data-index="7">
+                    <div class="slide-content">
+                        <img class="slide-image" src="https://c4.wallpaperflare.com/wallpaper/576/680/873/tv-show-game-of-thrones-daenerys-targaryen-drogon-game-of-thrones-emilia-clarke-hd-wallpaper-preview.jpg" alt="Card6" />
+                        <div class="slide-description">
+                            <h3>Tema</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-controls" data-slide="controls-wrapper">
+            </div>
+        </div>
+    </div>
+    <script src="./js/slides.js"></script>
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 2000
+        })
+    </script>
+
+<div class="Container-serviços">
+    <div class="title">
+        <h2>Nossos Serviços</h2>
+    </div><!--title-->
+
+    <div class="Caixa">
+        <div class="Card">
+            <i class="fas fa-bars"></i>
+            <h5>Desenvolvedor web</h5>
+            <div class="Paragrafo-button">
+                <p>Muitos sites devem ser contruido com dois principais objetivos: Primeiramente , ele precisar funcionar em todos os dispositivos. Segundo, Ele precisar ser o mais rapido possivel </p>
+                <button type="button">Ler Mais</button><!--button-->
+            </div><!--Paragrafo-button-->
+        </div><!--Card-->
+
+        <div class="Card">
+            <i class="fas fa-user"></i>
+            <h5>Desenvolvedor web</h5>
+            <div class="Paragrafo-button">
+                <p>Muitos sites devem ser contruido com dois principais objetivos: Primeiramente , ele precisar funcionar em todos os dispositivos. Segundo, Ele precisar ser o mais rapido possivel </p>
+                <button type="button">Ler Mais</button><!--button-->
+            </div><!--Paragrafo-button-->
+        </div><!--Card-->
+
+        <div class="Card">
+            <i class="fas fa-bell"></i>
+            <h5>Desenvolvedor web</h5>
+            <div class="Paragrafo-button">
+                <p>Muitos sites devem ser contruido com dois principais objetivos: Primeiramente , ele precisar funcionar em todos os dispositivos. Segundo, Ele precisar ser o mais rapido possivel </p>
+                <button type="button">Ler Mais</button>
+            </div>
+        </div>
+    </div>
+</div><!--Conatiner-serviços-->
+
+<!--Redes-sociais-->
+
+<footer>
+    <h6>Acompanhe tudo sobre series e filmes nas redes sociais!</h6>
+  <p>Para mais noticias - por favor clique no link abaixo para nos seguirem nas redes</p>
+  <div class="Redes-sociais">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-dribbble"></i></a>
+  </div>
+  <p class="end">CopyRight By World Of Series</p>
+</footer>
+
+</body>
+</html>
